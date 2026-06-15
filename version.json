@@ -1,11 +1,20 @@
 {
     "product": "DOCTO_BMS",
+
     "hardware": "STM32G491RET6",
-    "bootloader_version": 1,
-    "latest_version": 1,
-    "firmware_file": "STM32_v1.bin",
-    "firmware_size": 229376,
-    "firmware_crc": "0x00000000",
-    "release_date": "2026-06-16",
-    "mandatory_update": false
+
+    "current_version": 1,
+
+    "minimum_bootloader": 1,
+
+    "firmware": {
+        "file": "STM32_v1.bin",
+        "size": 229376,
+        "crc32": "0x5742DCB4"
+    },
+
+    "release": {
+        "date": "2026-06-16",
+        "mandatory": false
+    }
 }
